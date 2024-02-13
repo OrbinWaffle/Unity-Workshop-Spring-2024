@@ -13,6 +13,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] public static UIManager main;
     [SerializeField] public GameObject cursor;
     [SerializeField] private TextMeshProUGUI scoreText; // ADDED
+    [SerializeField] private TextMeshPro backpackText;
+    [SerializeField] private Image backpackBar;
     [SerializeField] private Image fillBar;
     [SerializeField] private Image fillCircle;
     [SerializeField] private GameObject pauseMenu;
@@ -49,6 +51,7 @@ public class UIManager : MonoBehaviour
     {
         score += amount;
         scoreText.text = "Cubes Collected: " + score + "/" + maxScore; // ADDED
+        backpackText.text = score.ToString();
         targetFill = (float)score / maxScore;
         currentCursorHue = 1;
     }
@@ -57,6 +60,8 @@ public class UIManager : MonoBehaviour
         currentFill = Mathf.SmoothDamp(currentFill, targetFill, ref fillVel, fillDampTime);
         fillBar.fillAmount = currentFill;
         fillCircle.fillAmount = currentFill;
+        backpackBar.fillAmount = currentFill;
+        backpackBar.color = Color.Lerp(Color.red, Color.green, currentFill);
     }
     private void CursorHueDampController()
     {
