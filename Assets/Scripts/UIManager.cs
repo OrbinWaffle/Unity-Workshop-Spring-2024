@@ -11,12 +11,15 @@ public class UIManager : MonoBehaviour
     [SerializeField] private int score;
     [SerializeField] private int maxScore = 10;
     [SerializeField] public static UIManager main;
-    [SerializeField] public GameObject cursor;
+    [SerializeField] private GameObject cursor;
     [SerializeField] private TextMeshProUGUI scoreText; // ADDED
     [SerializeField] private TextMeshPro backpackText;
     [SerializeField] private Image backpackBar;
     [SerializeField] private Image fillBar;
     [SerializeField] private Image fillCircle;
+    [SerializeField] private Transform popupSpot;
+    [SerializeField] private GameObject popupPrefab;
+    [SerializeField] private CounterController counterController;
     [SerializeField] private GameObject pauseMenu;
 
     float targetFill = 0f;
@@ -54,6 +57,11 @@ public class UIManager : MonoBehaviour
         backpackText.text = score.ToString();
         targetFill = (float)score / maxScore;
         currentCursorHue = 1;
+        if(amount > 0)
+        {
+            Instantiate(popupPrefab, popupSpot.position, popupSpot.rotation, popupSpot);
+        }
+        counterController.ChangeValue(amount);
     }
     private void FillDampController()
     {
