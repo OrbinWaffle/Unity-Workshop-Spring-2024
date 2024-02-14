@@ -28,6 +28,10 @@ public class Collector : MonoBehaviour
     {
         score += amount;
         score = Mathf.Clamp(score, minScore, maxScore);
-        UIManager.main.UpdateScore(score);
+        if(UIManager.main != null)
+        {
+            UIManager.main.UpdateMaxScore(maxScore);
+            UIManager.main.UpdateScore(score);
+        }
     }
 }

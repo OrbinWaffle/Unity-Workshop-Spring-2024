@@ -30,7 +30,6 @@ public class CounterController : MonoBehaviour
     {
         int change = newVal - currentCount;
         currentCount = newVal;
-        Debug.Log(change);
         for(int i = 0; i < Mathf.Abs(change); i++)
         {
             if(change > 0)

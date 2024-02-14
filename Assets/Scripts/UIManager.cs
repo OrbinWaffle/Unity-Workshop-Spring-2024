@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image colorBar;
     [SerializeField] private CounterController counterController;
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject cameraZones;
 
     float targetFill = 0f;
     float currentFill = 0f;
@@ -50,6 +51,10 @@ public class UIManager : MonoBehaviour
             pauseMenu.SetActive(!pauseMenu.activeSelf);
             Time.timeScale = pauseMenu.activeSelf? 0 : 1;
         }
+    }
+    public void UpdateMaxScore(int newScore)
+    {
+        maxScore = newScore;
     }
     public void UpdateScore(int newScore)
     {
