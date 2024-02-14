@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image fillCircle;
     [SerializeField] private Transform popupSpot;
     [SerializeField] private GameObject popupPrefab;
+    [SerializeField] private Image colorBar;
     [SerializeField] private CounterController counterController;
     [SerializeField] private GameObject pauseMenu;
 
@@ -36,26 +37,23 @@ public class UIManager : MonoBehaviour
     }
     private void Start()
     {
-        ChangeScore(0);
+        UpdateScore(0);
         Cursor.visible = false;
     }
     private void Update()
     {
-        FillDampController();
-        CursorHueDampController();
+        FillDampHandler();
+        CursorHueDampHandler();
         cursor.transform.position = Input.mousePosition;
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetButtonDown("Pause"))
         {
             pauseMenu.SetActive(!pauseMenu.activeSelf);
             Time.timeScale = pauseMenu.activeSelf? 0 : 1;
         }
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            ChangeScore(-1);
-        }
     }
-    public void ChangeScore(int amount)
+    public void UpdateScore(int newScore)
     {
+        int amount = newScore - score;
         score += amount;
         scoreText.text = "Cubes Collected: " + score + "/" + maxScore; // ADDED
         backpackText.text = score.ToString();
@@ -65,17 +63,18 @@ public class UIManager : MonoBehaviour
         {
             Instantiate(popupPrefab, popupSpot.position, popupSpot.rotation, popupSpot);
         }
-        counterController.ChangeValue(amount);
+        counterController.ChangeValue(score);
     }
-    private void FillDampController()
+    private void FillDampHandler()
     {
         currentFill = Mathf.SmoothDamp(currentFill, targetFill, ref fillVel, fillDampTime);
         fillBar.fillAmount = currentFill;
         fillCircle.fillAmount = currentFill;
         backpackBar.fillAmount = currentFill;
         backpackBar.color = Color.Lerp(Color.red, Color.green, currentFill);
+        colorBar.color = Color.Lerp(Color.red, Color.blue, currentFill);
     }
-    private void CursorHueDampController()
+    private void CursorHueDampHandler()
     {
         currentCursorHue = Mathf.SmoothDamp(currentCursorHue, targetCursorHue, ref cursorHueVel, fillDampTime);
         cursor.GetComponent<Image>().color = Color.Lerp(Color.white, Color.blue, currentCursorHue);

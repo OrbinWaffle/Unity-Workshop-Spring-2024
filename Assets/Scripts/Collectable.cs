@@ -5,18 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Collectable : MonoBehaviour
 {
-    [SerializeField] int pointValue = 1;
+    [SerializeField] public int pointValue = 1;
     [SerializeField] GameObject particleEffect;
-    void OnTriggerEnter(Collider other)
+    public void CollectMe()
     {
-        if (other.CompareTag("Player"))
+        if (particleEffect != null)
         {
-            if (particleEffect != null)
-            {
-                Instantiate(particleEffect, transform.position, transform.rotation);
-            }
-            UIManager.main.ChangeScore(pointValue);
-            Destroy(gameObject);
+            Instantiate(particleEffect, transform.position, transform.rotation);
         }
+        Destroy(gameObject);
     }
 }

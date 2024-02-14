@@ -6,7 +6,6 @@ public class Destroyer : MonoBehaviour
 {
     public void KillMe()
     {
-        Debug.Log("Recieved!");
         Destroy(gameObject);
     }
 }
