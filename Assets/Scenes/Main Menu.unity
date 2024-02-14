@@ -283,7 +283,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1919224848}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.14793992
+  m_Size: 0.10900014
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 1620977816}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -1806,8 +1806,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1351.9}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: -20, y: 1834.86}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1620977817
 MonoBehaviour:
@@ -1843,127 +1843,233 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to the fantastically convoluted and absurdly detailed terms and
-    conditions for playing our game, which we affectionately call \"User Interface
-    Extravaganza: Dictator Melvin's Soul Snatcher Edition.\" By engaging in the mind-bogglingly
-    entertaining journey through our digital wonderland, you hereby agree to surrender
-    not only your sanity but also your sense of logic, reason, and any lingering
-    shreds of dignity. Brace yourself for an adventure in legalese that's more intricate
-    than a labyrinth built by a hyperactive ferret with a PhD in architecture.\r\n\r\n   
-    The User Interface Spectacle: Prepare to navigate a User Interface so mesmerizingly
-    intricate that even your grandma's knitting patterns will seem like child's play.
-    In the event of any confusion, kindly consult the oracle, the mystic cat, or
-    that one guy who claims to be a wizard on the internet.\r\n\r\n    Eligibility
-    for Dictator Melvin\u2019s Inner Circle: By participating in this game, you automatically
-    throw your hat into the ring for potential inclusion in Dictator Melvin\u2019s
-    exclusive Inner Circle. Please note that this does not guarantee, or in any way
-    imply, any actual benefits, privileges, or recognition. We just like the sound
-    of \"Inner Circle.\"\r\n\r\n    Soul Submission Clause: As you immerse yourself
-    in the wondrous realm of our game, you hereby and unwittingly agree to submit
-    your soul to Dictator Melvin. Fear not, for Dictator Melvin is a benevolent dictator
-    with a penchant for eccentricity. Your soul will be returned upon request, assuming
-    Dictator Melvin hasn't decided to redecorate his soul collection room with it.\r\n\r\n   
-    Mandatory Pajama Fridays: In an effort to maintain the highest levels of gameplay
-    engagement, all users are required to wear pajamas on Fridays while playing the
-    game. Failure to comply will result in your character being transformed into
-    a sassy llama for a duration determined solely by the whims of our overly enthusiastic
-    llama transformation algorithm.\r\n\r\n    The Cryptic Puzzle of Eternal Cookies:
-    Discover the hidden realm of eternal cookies within the game. Once found, these
-    cookies will grant you the power of perpetual snacking and an immunity to cookie-related
-    guilt. However, be warned that this power may attract the attention of the mythical
-    Sugar Dragon, whose insatiable sweet tooth knows no bounds.\r\n\r\n    The Unspoken
-    Language of Emoji Diplomacy: Users must master the art of Emoji Diplomacy within
-    the game. Failure to convey your emotions using an appropriate emoji may result
-    in diplomatic incidents, virtual cold wars, and an influx of passive-aggressive
-    memes in your social media feed.\r\n\r\n    Infinite Loading Screen Tolerance
-    Training: To build resilience and patience, users are subjected to prolonged
-    loading screens strategically placed throughout the game. Participation in mindfulness
-    meditation during these intervals is encouraged, but not mandatory. On the bright
-    side, you'll emerge from this experience with the patience of a saint and the
-    serenity of a sloth on vacation.\r\n\r\n    Quantum Physics Integration and Random
-    Teleportation: Brace yourself for an unprecedented gaming experience as our cutting-edge
-    technology seamlessly integrates quantum physics into the gameplay. Prepare for
-    random teleportation to alternate dimensions, where the laws of physics take
-    coffee breaks and gravity is just a suggestion. Remember to pack a multidimensional
-    travel guide, as traditional maps are about as useful as a chocolate teapot in
-    these realms.\r\n\r\n    NPC Therapy Sessions: To enrich the storyline and promote
-    virtual empathy, users are required to attend NPC (Non-Playable Character) therapy
-    sessions. Share your deepest fears, dreams, and favorite pizza toppings with
-    the digital therapist as you navigate the emotional landscapes of characters
-    who may or may not actually have feelings.\r\n\r\n    Dictator Melvin's Fashion
-    Dictatorship: Users must adhere to Dictator Melvin's ever-changing fashion dictates
-    within the game. Failure to comply with the latest fashion trends set by Dictator
-    Melvin may result in your character being relegated to the virtual fashion faux
-    pas corner, where neon leg warmers and mullets are the pinnacle of style.\r\n\r\n   
-    Mandatory participation in Virtual Pet Talent Shows: Every user is required to
-    adopt a virtual pet and train it in a talent of their choice. Be prepared for
-    fierce virtual competition as your pet competes in talent shows judged by a panel
-    of imaginary celebrities, including a holographic tap-dancing penguin and a self-aware
-    talking cheese wedge.\r\n\r\n    Interdimensional Snack Exchange Program: Engage
-    in the Interdimensional Snack Exchange Program to share your favorite real-world
-    snacks with players from parallel universes. Discover bizarre culinary delights
-    from alternate dimensions, such as quantum popcorn that pops in reverse or levitating
-    nachos that defy gravity.\r\n\r\n    Real-Life Weather Sync: Experience the game
-    in real-time weather conditions synchronized with your actual location. If it's
-    raining in your town, expect your character to don a virtual umbrella and complain
-    about the lack of sunshine. Note: We are not responsible for any damages caused
-    by in-game lightning storms or unexpected virtual snowball fights.\r\n\r\n   
-    Virtual Taxation and Economic Simulation: Embrace the thrilling world of virtual
-    bureaucracy as you navigate a meticulously crafted economic simulation. Pay virtual
-    taxes, invest in virtual stocks, and endure the rollercoaster of a virtual recession.
-    Remember, it's all in good fun until your in-game house gets repossessed by pixelated
-    tax collectors.\r\n\r\n    Epic Battle Against the Grammar Gremlins: Join forces
-    with fellow players in an epic battle against the Grammar Gremlins who have invaded
-    the digital realms. Unleash the power of punctuation swords and grammatical shields
-    to vanquish these mischievous creatures, ensuring that your sentences remain
-    grammatically flawless.\n\nChatGPT\r\n\r\n    Emoji-Based Fitness Challenges:
-    Engage in spontaneous, emoji-based fitness challenges scattered throughout the
-    game. Your character may be suddenly tasked with performing virtual push-ups,
-    jumping jacks, or interpretative dance routines\u2014all dictated by a whimsical
-    emoji wheel. Don't forget to wear your virtual sweatband and embrace the digital
-    burn!\r\n\r\n    User-Generated Quests with Absurd Objectives: Step into the
-    role of quest designer by creating your own ludicrous in-game missions with objectives
-    that defy common sense. Whether it's finding the mythical rubber chicken of destiny
-    or persuading a pixelated penguin to breakdance, let your creativity run wild
-    and challenge fellow players to embark on your uniquely absurd quests.\r\n\r\n   
-    Virtual Thermostat Control: Experience the epitome of immersive gaming with virtual
-    thermostat control. Your in-game environment will mimic the real-world temperature,
-    ensuring that sweltering lava levels make you sweat, while icy tundras prompt
-    you to don a virtual parka. Virtual air conditioners and heaters sold separately
-    in the in-game marketplace.\r\n\r\n    AI Poetry Slam Battles: Engage in spontaneous
-    poetry slam battles with AI-generated verses. Your rhyming skills will be put
-    to the test as you compete against algorithmically crafted sonnets, limericks,
-    and haikus. Prepare for epic verbal showdowns and marvel at the unexpected lyrical
-    prowess of your digital opponents.\r\n\r\n    In-Game Pet Adoption Agency: Users
-    are encouraged to adopt in-game pets with peculiar abilities, such as fire-breathing
-    hamsters or levitating goldfish. All adopted pets must undergo rigorous virtual
-    training sessions, and owners are responsible for cleaning up any virtual messes
-    left behind\u2014be it pixelated furballs or holographic litter.\r\n\r\n    Tardiness
-    Points and Time Dilation Mechanics: Introducing the Tardiness Points system,
-    where users accumulate points for logging in late. To add a layer of complexity,
-    we've incorporated time dilation mechanics, making five minutes in the game equivalent
-    to five hours in the real world. Latecomers may find themselves navigating through
-    in-game traffic or attending virtual time management seminars.\r\n\r\n    AI-Generated
-    Apology Letters: In the event of virtual squabbles or digital misunderstandings,
-    users must utilize our AI-generated apology letter feature. Choose from a selection
-    of pre-written apologies that range from heartfelt to absurd, with options such
-    as \"I'm sorry my pixelated llama ate your virtual garden gnome\" or \"I apologize
-    for accidentally challenging you to a dance-off during a serious boss battle.\"\r\n\r\n   
-    Random Dance Parties: Embrace the rhythm as random dance parties spontaneously
-    erupt throughout the game. Your character will be compelled to showcase their
-    best dance moves, complete with disco balls, confetti cannons, and an AI DJ that
-    exclusively plays cheesy '80s tunes. Failure to participate may result in a temporary
-    loss of coordination during crucial gameplay moments.\r\n\r\n    In-Game Weather
-    Forecast Subscription: Stay informed about the virtual weather forecast by subscribing
-    to the in-game Weather Owl's newsletter. Receive daily updates on the chances
-    of pixelated rainbows, virtual thunderstorms, and the occasional meteorological
-    glitch. Disclaimer: The Weather Owl may occasionally predict unexpected weather
-    events, such as virtual meteor showers of cosmic confetti.\n\nBy clicking the
-    \"I Agree, But I Probably Didn't Read This\" button, you acknowledge that you
-    have willingly entered into this labyrinth of legal absurdity. Dictator Melvin
-    welcomes you to the twisted carnival of gaming, where the only rule is that there
-    are no rules. Enjoy your journey through the UI Wonderland, and may your soul
-    emerge unscathed!\n\n\n\n"
+  m_text: '
+
+    Terms and Conditions for User Interface Odyssey - A Cognitive Interaction
+    Enigma
+
+    
+
+    Welcome to User Interface Odyssey (UIO), an immersive and
+    intellectually stimulating gaming experience developed by Quantum Interface Dynamics
+    (QID). Before embarking on this cognitive journey, please carefully review the
+    following labyrinthine terms and conditions.
+
+    
+
+    1. Preamble - Quantum
+    Engagement:
+
+    By accessing or participating in UIO, you hereby acknowledge
+    and agree that you are willingly subjecting yourself to an advanced user interface
+    realm, governed by the intricate laws of Quantum Engagement. This engagement
+    transcends the mundane, plunging you into a digital universe that challenges
+    cognitive boundaries.
+
+    
+
+    2. Interface Conundrums and Cognitive Mazes:
+
+    Prepare
+    to navigate through a myriad of interface conundrums and cognitive mazes that
+    transcend conventional gaming experiences. Engage with the enigmatic architecture
+    of UIO, where each pixel is meticulously crafted to befuddle the most astute
+    minds.
+
+    
+
+    3. Quantum Information Paradox:
+
+    Engagement in UIO implies
+    a profound acceptance of the Quantum Information Paradox, wherein the very act
+    of observing the interface may alter its fundamental nature. QID disclaims any
+    responsibility for altered perceptions of reality resulting from prolonged exposure
+    to UIO.
+
+    
+
+    4. Neural Synaptic Encryption:
+
+    To protect the sanctity
+    of your cognitive processes, UIO employs Neural Synaptic Encryption (NSE), a
+    cutting-edge technology that safeguards your neural impulses from unauthorized
+    access. You hereby consent to the temporary integration of NSE during your participation
+    in UIO.
+
+    
+
+    5. Augmented Perception Modules:
+
+    UIO may utilize Augmented
+    Perception Modules (APMs) to enhance your sensory experience. These modules may
+    alter your perception of time, space, and reality within the UIO environment.
+    By participating, you willingly surrender your right to dispute any temporal
+    or spatial anomalies experienced during gameplay.
+
+    
+
+    6. Quantum Data
+    Harmonization:
+
+    Your participation in UIO involves the transmission of quantum
+    data to our servers. This data is harmonized with cosmic wavelengths to optimize
+    your gameplay experience. Rest assured, any inadvertent glimpses into alternate
+    realities are purely coincidental.
+
+    
+
+    7. Existential Riddles and Ethereal
+    Trials:
+
+    Embark on a journey filled with existential riddles and ethereal
+    trials, each carefully designed to test the limits of your cognitive prowess.
+    Success in UIO is contingent upon your ability to decipher the symbolism embedded
+    within the interface, transcending the mundane realm of traditional gaming.
+
+    
+
+    8.
+    Multi-Dimensional Intellectual Property Rights:
+
+    QID retains exclusive rights
+    to all intellectual property emanating from your cognitive interactions within
+    the UIO platform. Any attempts to replicate, duplicate, or reverse-engineer the
+    multi-dimensional elements of UIO will be met with legal and quantum consequences.
+
+    
+
+    9.
+    Time-Dilated Refund Policy:
+
+    In the unlikely event that your cognitive engagement
+    in UIO is unsatisfactory, QID offers a time-dilated refund policy. Please note
+    that processing time for refunds may vary depending on your subjective experience
+    of time within the UIO environment.
+
+    
+
+    10. Grand Unification Clause:
+
+    This
+    document serves as the Grand Unification Clause, encompassing the entirety of
+    the terms and conditions governing your participation in UIO. By engaging with
+    UIO, you acknowledge the inherent complexities and agree to traverse the quantum
+    landscape at your own intellectual risk.
+
+
+    11. Cognitive Resilience Acknowledgment:
+
+    In
+    the pursuit of UIO mastery, participants must acknowledge the requirement for
+    cognitive resilience. Understanding that UIO is designed to challenge mental
+    fortitude, you agree not to hold QID responsible for any potential emotional
+    or psychological distress resulting from exposure to mind-bending puzzles and
+    perplexing paradigms.
+
+    
+
+    12. Quantum Copyright Entanglement:
+
+    All
+    quantum entities, algorithms, and subroutines employed within UIO are subject
+    to Quantum Copyright Entanglement (QCE). Unauthorized replication or extraction
+    of quantum-level code fragments is strictly prohibited, and violators may face
+    entropic consequences.
+
+    
+
+    13. Hyper-Realistic Visual Illusions:
+
+    UIO
+    incorporates hyper-realistic visual illusions to stimulate cognitive processes.
+    Participants accept that perceived reality within the UIO environment may differ
+    significantly from conventional reality. QID is absolved of any responsibility
+    for momentary disorientation, hallucinations, or glimpses into alternate dimensions.
+
+    
+
+    14.
+    Exoplanetary Termination Clause:
+
+    In the unforeseen event of an exoplanetary
+    event threatening the continuity of UIO, QID reserves the right to terminate
+    the game at its discretion. Participants are encouraged to maintain intergalactic
+    evacuation plans and acknowledge that any premature termination will not warrant
+    a refund beyond the time-dilated policy.
+
+    
+
+    15. Paradoxical Points
+    Accumulation:
+
+    Scoring within UIO is governed by the Paradoxical Points
+    Accumulation (PPA) system. Participants must grapple with the paradoxical nature
+    of accumulating points, where success and failure may be indistinguishable. PPA
+    scores are non-negotiable and are subject to quantum fluctuations.
+
+    
+
+    16.
+    Temporal Echo Waiver:
+
+    Participation in UIO may lead to temporal echoes,
+    where fragments of your experience resonate across alternate timelines. By engaging
+    with UIO, you waive any claims to ownership of temporal echoes and grant QID
+    the rights to exploit these echoes for research and entertainment purposes.
+
+    
+
+    17.
+    Quantum Transcendence Certification:
+
+    Completion of UIO may lead to a state
+    of Quantum Transcendence, where participants may experience heightened cognitive
+    abilities. Participants are required to undergo Quantum Transcendence Certification,
+    acknowledging that any newfound insights are the property of QID and may not
+    be shared with non-participants.
+
+    
+
+    18. Holographic Legal Counsel Requirement:
+
+    In
+    the event of any legal disputes arising from UIO participation, participants
+    are required to engage with Holographic Legal Counsel (HLC) provided by QID.
+    HLC operates in a dimension where legal arguments are resolved through complex
+    holographic simulations, and participants must accept the finality of HLC judgments.
+
+    
+
+    19.
+    Ephemeral Quantum Currency:
+
+    UIO may introduce Ephemeral Quantum Currency
+    (EQC) as an in-game economy. Participants agree that EQC holds no tangible value
+    outside the UIO environment and may vanish at the whims of quantum fluctuations.
+    QID is not liable for any emotional distress resulting from EQC devaluation.
+
+    
+
+    20.
+    Soul Submission Disclaimer:
+
+    Contrary to any prior jest, rumors, or metaphysical
+    inquiries, UIO does not, under any circumstances, require the submission of souls
+    to Dictator Melvin or any other metaphysical entity. Participants are strongly
+    advised to disregard any unauthorized claims or doctrines suggesting soul submission
+    as part of UIO engagement.
+
+    
+
+    Thank you for navigating the labyrinthine
+    terms of UIO with intellectual fortitude. Dictator Melvin extends his non-metaphysical
+    regards, and QID looks forward to witnessing your cognitive transcendence within
+    the quantum tapestry of UIO.
+
+
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2300,7 +2406,7 @@ RectTransform:
   m_Father: {fileID: 1048964156}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8520601}
+  m_AnchorMin: {x: 0, y: 0.89099985}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
