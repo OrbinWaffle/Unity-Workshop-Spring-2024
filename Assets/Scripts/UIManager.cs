@@ -49,6 +49,10 @@ public class UIManager : MonoBehaviour
             pauseMenu.SetActive(!pauseMenu.activeSelf);
             Time.timeScale = pauseMenu.activeSelf? 0 : 1;
         }
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            ChangeScore(-1);
+        }
     }
     public void ChangeScore(int amount)
     {

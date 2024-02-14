@@ -6,10 +6,7 @@ public class Destroyer : MonoBehaviour
 {
     public void KillMe()
     {
-        if(GetComponent<Animator>() != null)
-        {
-            GetComponent<Animator>().enabled = false;
-        }
+        Debug.Log("Recieved!");
         Destroy(gameObject);
     }
 }
